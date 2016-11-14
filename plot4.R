@@ -13,3 +13,8 @@ par(mfrow=c(2,2), mar=c(4,4,2,1), oma=c(0,0,2,0))
     plot(Global_reactive_power~dateTime, type="l", 
          ylab="Global Rective Power (kilowatts)",xlab="")
   })
+
+## Save the file and close the device
+  #dev.copy(png,"plot4.png", width=480, height=480)
+  #dev.off()
+
